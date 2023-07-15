@@ -1,14 +1,13 @@
-package com.estructurasControl.Repeticion;
-
-public class For {
-
+public class ejercicioTres {
+    
     public static void main(String[] args) {
         
-        String sumas1 = "David ";
-        String[] nombres = {"Pepe ", "Juanito ", "Ruperta ", "Daniel "}; // length 4
-        for(int i = 0; i < nombres.length; i++){
-            sumas1 += nombres[i];
-            System.out.println(sumas1);
-        }
-      }
-  }
+
+    String[] nombres = {"Brad, Zac, Matt"};
+
+    for (int i = 0; i < nombres.length; i++) {
+
+        System.out.println(nombres[i]);
+    }
+    }
+}
